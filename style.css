@@ -432,3 +432,42 @@ input[type=number] {
     background-size: 20px 20px;
     background-repeat: no-repeat;
 }
+#modal {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+
+#intro p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: georgia;
+}
+b {
+    color: orange;
+}
+.modalconent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 80%;
+    padding: 20px;
+}
+
+#button {
+    background: orange;
+    padding: 3px;
+    border-radius: 3px;
+    border: 0;
+    font-weight: 800;
+    font-family: georgia;
+    
+}

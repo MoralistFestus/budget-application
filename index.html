@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div id="modal">
+	    <div class="modalconent">
+	         <h1></h1>
+	
+	        <p id="intro"><b>Welcome to your Budget Application</b></p>
+	        <p>Budget Application helps you calculate all of your Budget expenses and income account. </p>
+	        <p><ul><li>Click <b>income</b> to view your Budget income</li><li>Click <b>Expenses</b> to view your Budget expenses</li><li>Click <b>All</b> to view all of your Budget expenses, and income.</li></ul><p>You can <b>edit</b> and <b>delete</b> Expenses and Income by clicking on the edit/delete icons </p><p>Add new expense/income by filling the input field and click on the ➕ icon to add</p><p><strong>Note:</strong> your Budgets are being saved to the browser's storage for later access. </p>
+	        <button id="button">OK, thanks</button>
+	    </div>
+	</div>
+
     <div class="budget-container">
         <div class="app-title">
             <a href="">Budget<b>Application</b></a>
@@ -18,7 +29,7 @@
                     Balance
                 </div>
                 <div class="value">
-                    <small>$</small>0
+                    <small>₦</small>0
                 </div>
             </div>
             <div class="account">
@@ -27,7 +38,7 @@
                         Income
                     </div>
                     <div class="income-total">
-                        <small>$</small>0
+                        <small>₦</small>0
                     </div>
                 </div>
                 <div class="chart"></div>
@@ -36,7 +47,7 @@
                         Income
                     </div>
                     <div class="outcome-total">
-                        <small>$</small>0
+                        <small>₦</small>0
                     </div>
                 </div>
             </div>
@@ -52,7 +63,7 @@
                 <ul class="list"></ul>
                 <div class="input">
                     <input type="text" id="income-title-input" name="title" placeholder="Title">
-                    <input type="number" id="income-amount-input" name="amount" placeholder="$0">
+                    <input type="number" id="income-amount-input" name="amount" placeholder="₦0">
                     <div class="add-income"><img src="icon/plus.png" alt=""></div>
                 </div>
             </div>
@@ -60,7 +71,7 @@
                 <ul class="list"></ul>
                 <div class="input">
                     <input type="text" id="expense-title-input" name="title" placeholder="Title">
-                    <input type="number" id="expense-amount-input" name="amount" placeholder="$0">
+                    <input type="number" id="expense-amount-input" name="amount" placeholder="₦0">
                     <div class="add-expense"><img src="icon/plus.png" alt=""></div>
                 </div>
             </div>
