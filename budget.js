@@ -1,4 +1,4 @@
-/* www.youtube.com/CodeExplained */
+/* Resource: CodeExplained & Stackoverflow */
 
 // SELECT ELEMENTS
 const balanceEl = document.querySelector(".balance .value");
