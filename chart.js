@@ -1,4 +1,4 @@
-/* www.youtube.com/CodeExplained */
+/* Resource: CodeExplained & Stackoverflow */
 
 // SELECT CHART ELEMENT
 const chart = document.querySelector(".chart");
